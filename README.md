@@ -37,7 +37,7 @@ In this section, my purpose is to show how machine learning (ML) can be applied 
 - [model_variations.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/model_variations.py): Provides potential modifications to the standard baseline model.
 - [simple_breakout_results.ipynb](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/simple_breakout_results.ipynb): Provides the results for the simple_breakout model.
 - [my_statistics.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/my_statistics.py): Provides functions used in simple_breakout_results to visualize results.
-- [utils.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/utils.py): Efficiently loads, cleans, and transforms tick-level data
+- [utils.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/utils.py): Efficiently loads, cleans, and transforms tick-level data.
 - [sample_data_ES.parquet](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/sample_data_ES.parquet): A sample Parquet file containing a Polars DataFrame with 500 rows of ES tick data.
 
 
