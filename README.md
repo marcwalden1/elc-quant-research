@@ -25,7 +25,8 @@ These versions don't support live data ingestion, so I would recommend sticking 
 
 Below I have displayed the results over 8 months of 2024 from the iFVG model that is currently being used. This model incorporates a dynamic exit strategy based on price and volume with optimized hyperparameters, and a fixed risk of approximately $1000 is assumed per trade. More details can be found in [iFVG_results.ipynb](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_results.ipynb).
 
-![iFVG_PnL](iFVG_PnL.png)
+<img width="878" alt="iFVG_PnL" src="https://github.com/user-attachments/assets/6d984b95-d3d3-40f8-9333-2751c2f4ae53" />
+
 
 
 ## ML_Breakout_Models folder
