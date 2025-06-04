@@ -50,7 +50,7 @@ In this section, my purpose is to show how machine learning (ML) can be applied 
 - [sample_data_ES.parquet](https://github.com/marcwalden1/elcapital-quant-research/blob/main/ML_Breakout_Models/sample_data_ES.parquet): A sample Parquet file containing a Polars DataFrame with 500 rows of ES tick data.
 
 
-
+**Disclaimer**: This repository is for educational and research purposes only. Nothing in this repository constitutes financial advice or a recommendation to trade any financial instrument.
 
 If you have questions please email me at marcwalden@g.harvard.edu.
 
