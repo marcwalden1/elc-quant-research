@@ -1,5 +1,5 @@
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 
 # Quantitative Research @ EL Capital, Januray - May 2025
