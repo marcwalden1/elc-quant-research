@@ -10,19 +10,18 @@ This folder contains the implementation of the momentum-based “Inverse Fair Va
 
 ### Implementation
 - [iFVG_main.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_main.py): End-to-end automated pipeline that executes the iFVG model on live data.
-- [iFVG_live.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_live.py): Contains most model functions used in iFVG_main.py for high and low timeframe criteria.
+- [iFVG_live.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_live.py): Contains most model functions used in iFVG_main.py for high and low timeframe model criteria.
 - [tick_stream_processor.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/tick_stream_processor.py): Efficiently processes and stores tick data in memory using NumPy.
 - [trade_manager.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/trade_manager.py): Manages trade execution logic, including order placement, position tracking, and manages risk.
 - [iFVG_results.ipynb](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_results.ipynb): Result metrics and visualizations for different variations of the iFVG model.
 - [parquet_utils.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/parquet_utils.py): Efficiently loads, cleans, and transforms tick-level parquet data using Polars.
-- [my_statistics.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/my_statistics.py): Provides functions used in iFVG_results to visualize results.
 - [sample_data_NQ.parquet](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/sample_data_NQ.parquet): A sample Parquet file containing a Polars DataFrame with 500 rows of NQ tick data.
   
 #### Extra files
-These versions don't support live data ingestion, so I would recommend sticking with the more recently updated iFVG_main.py in both backtested and live environments.
-- [iFVG_backtest.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_backtest.py): Contains most model functions used exclusively for backtesting.
+These versions don't support live data ingestion, so I would recommend sticking with the more recently updated [iFVG_main.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_main.py) file in both backtested and live environments.
+- [iFVG_backtest.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_backtest.py): Contains most model functions used for backtesting.
 - [iFVG_variations.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_variations.py): Provides modifications to the standard baseline model.
-- [utils_2.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/utils_2.py): Efficiently loads, cleans, and transforms tick-level data
+- [utils_2.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/utils_2.py): Efficiently loads, cleans, and transforms tick-level data.
 
 
 ## ML_Breakout_Models folder
