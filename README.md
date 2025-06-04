@@ -5,7 +5,7 @@ This repository contains work from my five‐month quantitative research interns
 
 ## iFVG_Model folder
 
-This folder contains the implementation of the momentum-based “Inverse Fair Value Gap” strategy designed to capture high-volatility expansions in NQ futures. It is a fully automated, end-to-end pipeline that ingests live tick data and trades in real time (see [iFVG_main.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_main.py)). It aims at capitalizing on one-sided, expansionary behavior in favourable market conditions. I have provided a simplified, surface-level overview of the model in [iFVG_Simplified_Overview.pdf](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_Simplified_Overview.pdf). Please note that some details have been omitted.
+This folder contains the implementation of the momentum-based “Inverse Fair Value Gap” strategy designed to capture high-volatility expansions in NQ futures. It is a fully automated, end-to-end pipeline that ingests live tick data and trades in real time (see [iFVG_main.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_main.py)). This model aims to capitalize on one-sided, expansionary behavior in favourable market conditions. I have provided a simplified, surface-level overview of the model in [iFVG_Simplified_Overview.pdf](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_Simplified_Overview.pdf). Please note that some details have been omitted.
 
 
 ### Implementation
