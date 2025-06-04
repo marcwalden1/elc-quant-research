@@ -23,7 +23,7 @@ These versions don't support live data ingestion, so I would recommend sticking 
 - [iFVG_variations.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_variations.py): Provides modifications to the standard baseline model.
 - [utils_2.py](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/utils_2.py): Efficiently loads, cleans, and transforms tick-level data.
 
-Below I have displayed the results over 8 months of 2024 from the iFVG model that is currently being used. This model incorporates a dynamic exit strategy based on price and volume with optimized hyperparameters, and a fixed risk of approximately $1000 is assumed per trade. More details can be found in [iFVG_results.ipynb](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_results.ipynb).
+Below are the results from eight months of 2024 using the most recent version of the iFVG model. It incorporates a dynamic exit strategy based on price and volume, with optimized hyperparameters. Each trade assumes a fixed risk of approximately $1,000. More details can be found in [iFVG_results.ipynb](https://github.com/marcwalden1/elcapital-quant-research/blob/main/iFVG_Model/iFVG_results.ipynb).
 
 <img width="878" alt="iFVG_PnL" src="https://github.com/user-attachments/assets/6d984b95-d3d3-40f8-9333-2751c2f4ae53" />
 
